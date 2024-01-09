@@ -1,0 +1,31 @@
+.app-header {
+  width: 100%;
+  min-width: 50%;
+  max-height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+
+  .example-spacer {
+    flex: 1 1 auto;
+  }
+
+  .mat-toolbar {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 100%;
+    min-width: auto;
+    height: auto;
+    background-color: black;
+    color: white;
+    padding: 0 5rem;
+
+    button {
+      min-width: auto;
+      margin: 8px;
+    }
+  }
+
+  .mat-mdc-outlined-button:not(:disabled) {
+    border-color: white;
+  }
+}
